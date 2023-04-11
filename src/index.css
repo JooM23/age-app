@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    padding: 4%;
+}
+
+p {
+    font-size: 0.7rem;
+}
+
+form {
+    padding-top: 1.5rem;
+}
+
+.form-data {
+    width: 40%;
+    height: 50vh;
+    margin: auto;
+    padding: 6% 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 20px 20px 30% 20px;
+    background-color: hsl(0, 0%, 94%);
+}
+
+.btn-area {
+    display: flex;
+    width: 100%;
+}
+
+hr {
+    width: 100%;
+    height: 0px;
+    margin: auto;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    background-color: lightgray;
+    margin-left: 0;
+}
+
+div>h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 0.8;
+    margin-top: 0;
+}
+
+label {
+    letter-spacing: 0.1rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.6rem;
+    font-weight: bold;
+    color: gray;
+}
+
+.first-label, .second-label, .third-label {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 15vh;
+    height: 8vh;
+    margin-right: 1.5rem;
+    border: 1px solid lightgray;
+    outline: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-left: 1rem;
+}
+
+.arrow {
+    border-radius: 50%;
+    background-color: hsl(259, 100%, 65%);
+    border: none;
+    font-size: 3rem;
+    width: 4rem;
+    height: 4rem;
+}
+
+img {
+    position: relative;
+    top: 0.1rem;
+    width: 2.3rem;
+}
+
+.input-fields {
+    display: flex;
+}
+
+.result-field>h1 {
+    margin-top: 0;
+}
+
+@media (min-width: 300px) and (max-width: 1100px) {
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 3.2rem;
+    }
+
+    .form-data {
+        width: 100%;
+        height: 70vh;
+        margin-top: 1.5rem;
+    }
+
+    button,
+    .arrow {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btn-area {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    hr {
+        margin-top: 2rem;
+    }
+
+    button {
+        position: relative;
+        bottom: 2rem;
+    }
+}
