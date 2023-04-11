@@ -40,8 +40,10 @@ hr {
     display: flex;
     justify-content: left;
     align-items: left;
-    background-color: lightgray;
+    background-color: hsl(0, 0%, 94%);
     margin-left: 0;
+    border: none;
+    border-top: 1px solid #f0f0f0;
 }
 
 div>h1 {
@@ -82,7 +84,7 @@ input {
     background-color: hsl(259, 100%, 65%);
     border: none;
     font-size: 3rem;
-    width: 4.5rem;
+    width: 4.2rem;
     height: 4rem;
 }
 
