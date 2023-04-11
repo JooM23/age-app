@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/age-app/static/css/main.2055e20d.css",
+    "main.js": "/age-app/static/js/main.dbc4ccb0.js",
+    "index.html": "/age-app/index.html",
+    "main.2055e20d.css.map": "/age-app/static/css/main.2055e20d.css.map",
+    "main.dbc4ccb0.js.map": "/age-app/static/js/main.dbc4ccb0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2055e20d.css",
+    "static/js/main.dbc4ccb0.js"
+  ]
+}
