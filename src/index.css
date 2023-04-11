@@ -4,7 +4,8 @@ body {
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     background-color: white;
-    padding: 4%;
+    padding: 5% 0;
+    margin: 0;
 }
 
 p {
@@ -81,8 +82,14 @@ input {
     background-color: hsl(259, 100%, 65%);
     border: none;
     font-size: 3rem;
+    width: 4.5rem;
+    height: 4rem;
+}
+
+button {
     width: 4rem;
     height: 4rem;
+    border-radius: 50%;
 }
 
 img {
@@ -105,7 +112,7 @@ img {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-right: 3.2rem;
+        padding-right: 2rem;
     }
 
     .form-data {
