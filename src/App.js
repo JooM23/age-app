@@ -128,7 +128,9 @@ export default function App() {
 
         <div className='btn-area'>
           <hr />
-          <button onClick={validateData} className="arrow"><img src='../icon-arrow.svg' alt='button' /></button>
+          <button onClick={validateData} className="arrow">
+            <img src={process.env.PUBLIC_URL + '/icon-arrow.svg'} alt='button' />
+          </button>
         </div>
 
       </form>
