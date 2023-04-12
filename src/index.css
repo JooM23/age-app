@@ -75,9 +75,10 @@ img {
     width: 2rem;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 550px) {
 
     h1 {
+        width: 80%;
         font-size: 3rem;
     }
 
