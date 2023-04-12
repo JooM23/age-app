@@ -77,6 +77,10 @@ img {
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
+    h1 {
+        font-size: 3rem;
+    }
+
     p {
         font-size: 0.5rem;
     }
@@ -117,11 +121,11 @@ img {
     }
 
     img {
-        width: 1.5rem;
+        width: 1.6rem;
     }
 
     .arrow {
-        width: 2.5rem;
-        height: 2.5rem;
+        width: 3.5rem;
+        height: 3.5rem;
     }
 }
