@@ -92,12 +92,11 @@ img {
 
     label {
         margin-bottom: 0.5rem;
-        font-size: 0.5rem;
     }
 
     input {
-        width: 3.5rem;
-        height: 3rem;
+        width: 2rem;
+        height: 1.5rem;
         font-size: 0.8rem;
         padding-left: 0.6rem;
         margin-right: 0.6rem;
