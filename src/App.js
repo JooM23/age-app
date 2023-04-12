@@ -1,4 +1,3 @@
-
 import React from 'react'
 
 export default function App() {
@@ -67,7 +66,6 @@ export default function App() {
 
   return (
     <div className='form-data'>
-
       <form>
         <div className='input-fields'>
           <div className='first-label'>
