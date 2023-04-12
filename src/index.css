@@ -77,6 +77,10 @@ img {
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
 
+    p {
+        font-size: 0.6rem;
+    }
+
     .form-data {
         width: 80%;
         position: absolute;
@@ -95,7 +99,6 @@ img {
         font-size: 1rem;
         padding-left: 0.6rem;
         margin-right: 0.6rem;
-        margin: auto;
     }
 
     .btn-area {
