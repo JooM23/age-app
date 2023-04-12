@@ -74,10 +74,10 @@ img {
     width: 2rem;
 }
 
-@media (min-width: 300px) and (max-width: 960px) {
+@media screen and (min-width: 0px) and (max-width: 767px) {
 
     p {
-        font-size: 0.4rem;
+        font-size: 0.45rem;
     }
 
     h1 {
@@ -86,8 +86,7 @@ img {
     }
 
     .form-data {
-        padding: 6%;
-        padding-right: 2%;
+        padding: 6% 1% 6% 2%;
     }
 
     label {
@@ -95,9 +94,9 @@ img {
     }
 
     input {
-        width: 2rem;
-        height: 1.5rem;
-        font-size: 0.8rem;
+        width: 3.5rem;
+        height: 3rem;
+        font-size: 1rem;
         padding-left: 0.6rem;
         margin-right: 0.6rem;
     }
@@ -114,6 +113,15 @@ img {
 
     button {
         position: relative;
-        bottom: 2rem;
+        bottom: 1.4rem;
+    }
+
+    img {
+        width: 1.5rem;
+    }
+
+    .arrow {
+        width: 2.5rem;
+        height: 2.5rem;
     }
 }
