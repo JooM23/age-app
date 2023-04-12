@@ -73,6 +73,7 @@ export default function App() {
             <input
               onChange={collectData}
               type="text"
+              inputMode='numeric'
               name='day'
               value={day}
               id='day'
@@ -94,6 +95,7 @@ export default function App() {
             <input
               onChange={collectData}
               type="text"
+              inputMode='numeric'
               name='month'
               value={month}
               id='month'
@@ -111,6 +113,7 @@ export default function App() {
             <input
               onChange={collectData}
               type="text"
+              inputMode='numeric'
               name='year'
               value={year}
               id='year'
