@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/age-app/static/css/main.1d322e22.css",
-    "main.js": "/age-app/static/js/main.2fca3e95.js",
+    "main.js": "/age-app/static/js/main.a6f09760.js",
     "index.html": "/age-app/index.html",
     "main.1d322e22.css.map": "/age-app/static/css/main.1d322e22.css.map",
-    "main.2fca3e95.js.map": "/age-app/static/js/main.2fca3e95.js.map"
+    "main.a6f09760.js.map": "/age-app/static/js/main.a6f09760.js.map"
   },
   "entrypoints": [
     "static/css/main.1d322e22.css",
-    "static/js/main.2fca3e95.js"
+    "static/js/main.a6f09760.js"
   ]
 }
